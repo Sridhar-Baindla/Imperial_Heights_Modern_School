@@ -1,0 +1,190 @@
+:root{
+  --navy-500: hsl(215, 84%, 12%);
+  --accent: hsl(45, 93%, 58%);
+}
+/* ===== Base Styles ===== */
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ===== Header ===== */
+header {
+  background: linear-gradient(135deg, #254dac, #2a3e5c);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.25rem;
+  opacity: 0.85;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ===== Container ===== */
+.container {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.container p,
+.container li {
+  font-size: 1.05rem;
+  color: #374151;
+}
+
+/* ===== Headings ===== */
+h2 {
+  font-size: 1.9rem;
+  margin-top: 3rem;
+  margin-bottom: 1.2rem;
+  color: #0f172a;
+  font-weight: 600;
+  border-left: 5px solid #1e293b;
+  padding-left: 0.75rem;
+  line-height: 1.4;
+}
+
+/* ===== Lists ===== */
+ul {
+  margin: 1rem 0 2rem 1.5rem;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.9rem;
+  padding-left: 0.5rem;
+  position: relative;
+}
+
+ul li::before {
+  content: "•";
+  color: #1e293b;
+  font-weight: bold;
+  position: absolute;
+  left: -1.2rem;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* ===== Quick Links ===== */
+.quick-links {
+  margin: 4rem 0;
+}
+
+.quick-links nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.1rem;
+}
+
+.quick-links nav a{
+  font-size: 1.05rem;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.terms-contact a{
+  color: #000000;
+  text-decoration: none;
+}
+.quick-links nav a:hover, .terms-contact a:hover{
+  color: var(--accent); 
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  background: var(--navy-500);
+  padding: 2.5rem 1rem;
+  margin-top: 4rem;
+  font-size: 0.95rem;
+  color: #ffffff;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* ===== Responsive Design ===== */
+
+/* Full screens ≥1024px */
+@media (min-width: 1024px) {
+  header h1 {
+    font-size: 2.4rem;
+  }
+  header p {
+    font-size: 1.1rem;
+  }
+  .quick-links nav {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+/* Medium screens 768px–1023px*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    padding: 3rem 1rem;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  .container {
+    padding: 0 1.5rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  .quick-links nav {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+/* small screen */
+@media (max-width: 767px) {
+  header h1 {
+    font-size: 1.75rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  .container {
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  .container p, .container li {
+    font-size: 0.95rem;
+  }
+  .quick-links nav {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}

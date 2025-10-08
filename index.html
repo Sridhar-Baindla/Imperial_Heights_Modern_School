@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial Heights Academy - Excellence in Education | Nursery to Grade 10</title>
+    <meta name="description" content="Premier educational institution offering world-class education from Nursery to Grade 10. Nurturing future leaders with academic excellence and character development.">
+    <meta name="author" content="Imperial Heights Modern School">
+    
+    <!-- SEO Meta Tags -->
+    <meta property="og:title" content="Imperial Heights Academy - Excellence in Education">
+    <meta property="og:description" content="Premier educational institution offering world-class education from Nursery to Grade 10.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/opengraph-image-p98pqg">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@imperialheights">
+    <meta name="twitter:image" content="./assets/opengraph-image-p98pqg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <img src="./assets/Imperial Heights.png" alt="Imperial Heights Modern School logo">
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="school-name">Imperial Heights Modern School</h1>
+                        <p class="school-tagline">Excellence in Education</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="desktop-nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#programs" class="nav-link">Programs</a>
+                    <a href="#facilities" class="nav-link">Facilities</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+
+                <!-- Desktop Action Buttons -->
+                <div class="desktop-actions">
+                    <button class="btn btn-outline">Admissions</button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-controls="mobileNav" aria-expanded="false" aria-label="Open navigation menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+                <div class="mobile-nav-content">
+                    <a href="#home" class="mobile-nav-link">Home</a>
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <a href="#programs" class="mobile-nav-link">Programs</a>
+                    <a href="#facilities" class="mobile-nav-link">Facilities</a>
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                    <div class="mobile-actions">
+                        <button class="btn btn-outline">Admissions</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Nurturing Tomorrow's <span class="gradient-text">Leaders</span>
+                </h1>
+                <p class="hero-description">
+                    Where excellence meets opportunity. Join our community of learners, innovators, and future leaders 
+                    in an environment that fosters academic excellence, character development, and lifelong success.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-outline btn-large">Apply Now</button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Happy Students</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years Excellence</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Imperial Heights Modern School</h2>
+                <p class="section-description">
+                    Discover what makes us the premier choice for your child's educational journey from nursery through grade 10.
+                </p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="features-grid">
+                    <div class="feature-card" data-title="Expert Faculty" data-description="Our expert faculty comprises distinguished educators with advanced degrees, decades of proven experience, and an unwavering passion for inspiring, mentoring, and shaping future leaders with excellence." data-images="./assets/expert-faculty1.jpg, ./assets/expert-faculty2.jpg, ./assets/expert-faculty3.jpg">
+                        <div class="feature-icon"><i data-lucide="users"></i></div>
+                        <h3 class="feature-title">Expert Faculty</h3>
+                    </div>
+
+                    <div class="feature-card" data-title="Modern Curriculum" data-description="Our modern curriculum, crafted by award-winning education experts, seamlessly blends contemporary teaching methodologies with time-tested principles, ensuring holistic learning, critical thinking, creativity, and lifelong success." data-images="./assets/modern-curriculum1.jpg, ./assets/modern-curriculum2.jpg, ./assets/modern-curriculum3.jpg">
+                        <div class="feature-icon"><i data-lucide="book-open"></i></div>
+                        <h3 class="feature-title">Modern Curriculum</h3>
+                    </div>
+
+                    <div class="feature-card" data-title="State-of-the-Art Facilities" data-description="Our state-of-the-art facilities feature cutting-edge infrastructure and dynamic learning environments, thoughtfully designed to foster innovation, creativity, collaboration, and holistic growth for every student." data-images="./assets/State-of-the-Art1.jpg, ./assets/State-of-the-Art2.jpg, ./assets/State-of-the-Art3.jpg">
+                        <div class="feature-icon"><i data-lucide="school"></i></div>
+                        <h3 class="feature-title">State-of-the-Art Facilities</h3>
+                    </div>
+
+                    <div class="feature-card" data-title="Small Class Sizes" data-description="With intentionally small class sizes, we provide individualized attention, focused guidance, and meaningful support, empowering every student to thrive academically, socially, and personally with confidence." data-images="./assets/small-class1.jpg, ./assets/small-class2.jpg, ./assets/small-class3.jpg">
+                        <div class="feature-icon"><i data-lucide="users-2"></i></div>
+                        <h3 class="feature-title">Small Class Sizes</h3>
+                    </div>
+
+                    <div class="feature-card" data-title="Extracurricular Programs" data-description="Our enriching extracurricular programs offer diverse opportunities that inspire creativity, nurture talents, build teamwork, and cultivate strong leadership skills, empowering students beyond the classroom." data-images="./assets/activity1.jpg, ./assets/activity2.jpg, ./assets/activity3.jpg">
+                        <div class="feature-icon"><i data-lucide="activity"></i></div>
+                        <h3 class="feature-title">Extracurricular Programs</h3>
+                    </div>
+
+                    <div class="feature-card" data-title="Excellence Awards" data-description="Honored with prestigious excellence awards, our institution is recognized by leading educational authorities for outstanding academic achievements and pioneering, innovative teaching methodologies that inspire success." data-images="./assets/awards1.jpg, ./assets/awards2.jpg, ./assets/awards3.jpg">
+                        <div class="feature-icon"><i data-lucide="trophy"></i></div>
+                        <h3 class="feature-title">Excellence Awards</h3>
+                    </div>
+
+                    <div class="feature-card" data-title="Holistic Development" data-description="We emphasize holistic development, nurturing character, emotional intelligence, and social skills alongside academic excellence, shaping well-rounded individuals prepared for success in life and leadership." data-images="./assets/holistic1.jpg, ./assets/holistic2.jpg, ./assets/holistic3.jpg, ">
+                        <div class="feature-icon"><i data-lucide="heart"></i></div>
+                        <h3 class="feature-title">Holistic Development</h3>
+                    </div>
+                </div>
+
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="popup-close">&times;</span>
+                        <h3 class="popup-title"></h3>
+                        <p class="popup-description"></p>
+                        <div class="popup-images"></div>
+                    </div>
+                </div>
+
+                <button class="btn btn-outline" onclick="openAboutModal()">Learn More About Us</button>
+                <div id="aboutModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="aboutModalTitle" aria-hidden="true">
+                    <div class="modal-content" tabindex="-1">
+                        <span class="close" aria-label="Close about dialog" onclick="closeAboutModal()">&times;</span>
+                        <h2 id="aboutModalTitle">About Imperial Heights Modern School</h2>
+                        <ul class="about-list">
+                            <li><strong>Commitment to Excellence:</strong> We nurture holistic growth, ensuring every student thrives academically and personally.</li>
+                            <li><strong>Expert Faculty:</strong> Our team of educators, with advanced qualifications and decades of experience, inspire with knowledge, mentorship, and passion.</li>
+                            <li><strong>Modern Curriculum:</strong> Crafted by award-winning specialists, blending innovative methods with timeless principles to build critical thinking, creativity, and lifelong success.</li>
+                            <li><strong>State-of-the-Art Facilities:</strong> Cutting-edge, dynamic learning environments designed for innovation, collaboration, and confidence-building.</li>
+                            <li><strong>Small Class Sizes:</strong> Personalized attention and meaningful guidance empower every learner to reach their fullest potential.</li>
+                            <li><strong>Enriching Extracurriculars:</strong> Diverse opportunities foster creativity, leadership, teamwork, and talent development beyond academics.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="schedule" class="cta-section">
+                <h3 class="cta-title">Ready to Give Your Child the Best Education?</h3>
+                <p class="cta-description">Join hundreds of families who have trusted us with their children's future.</p>
+                <div class="cta-buttons">
+                    <a href="./assets/brochure.pdf" target="_blank" class="btn btn-primary">View Brochure Online</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Academic Programs</h2>
+                <p class="section-description">
+                    Comprehensive educational programs designed to nurture every child's unique potential from nursery to grade 10.
+                </p>
+            </div>
+            
+            <div class="programs-grid">
+                <div id="early-childhood" class="program-card early-childhood">
+                    <div class="program-header">
+                        <div class="program-icon"><i data-lucide="baby"></i></div>
+                        <h3 class="program-title">Early Childhood (Nursery - KG)</h3>
+                    </div>
+                    <div class="program-content" id="program-early">                        
+                        <p class="program-age">Ages 3-5 years</p>
+                        <p class="program-description">
+                            Foundation years focused on play-based learning, creativity, and social development in a nurturing environment.
+                        </p>
+                        <ul class="program-features">
+                            <li>Play-based learning approach</li>
+                            <li>Creative arts and crafts</li>
+                            <li>Music and movement activities</li>
+                            <li>Social skill development</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="openProgram('early')">Learn More</button>
+                    </div>
+                </div>
+
+                <div id="primary" class="program-card primary">
+                    <div class="program-header">
+                        <div class="program-icon"><i data-lucide="book"></i></div>
+                        <h3 class="program-title">Primary Education (Grades 1-5)</h3>
+                    </div>
+                    <div class="program-content" id="program-primary">
+                        <p class="program-age">Ages 6-10 years</p>
+                        <p class="program-description">
+                            Building strong foundations in literacy, numeracy, and critical thinking with hands-on learning experiences.
+                        </p>
+                        <ul class="program-features">
+                            <li>Core academic subjects</li>
+                            <li>STEM integration</li>
+                            <li>Language development</li>
+                            <li>Character education</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="openProgram('primary')">Learn More</button>
+                    </div>
+                </div>
+
+                <div id="middle" class="program-card middle">
+                    <div class="program-header">
+                        <div class="program-icon"><i data-lucide="graduation-cap"></i></div>
+                        <h3 class="program-title">Middle School (Grades 6-8)</h3>
+                    </div>
+                    <div class="program-content" id="program-middle">
+                        <p class="program-age">Ages 11-13 years</p>
+                        <p class="program-description">
+                            Comprehensive curriculum preparing students for advanced studies with emphasis on analytical thinking.
+                        </p>
+                        <ul class="program-features">
+                            <li>Advanced mathematics</li>
+                            <li>Science laboratories</li>
+                            <li>Research projects</li>
+                            <li>Leadership opportunities</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="openProgram('middle')">Learn More</button>
+                    </div>
+                </div>
+
+                <div id="high" class="program-card high">
+                    <div class="program-header">
+                        <div class="program-icon"><i data-lucide="award"></i></div>
+                        <h3 class="program-title">High School (Grades 9-10)</h3>
+                    </div>
+                    <div class="program-content" id="program-high">
+                        <p class="program-age">Ages 14-15 years</p>
+                        <p class="program-description">
+                            Advanced academic preparation for higher education with specialized tracks and career guidance.
+                        </p>
+                        <ul class="program-features">
+                            <li>College preparatory courses</li>
+                            <li>Career counseling</li>
+                            <li>Advanced placement options</li>
+                            <li>University partnerships</li>
+                        </ul>
+                    <button class="btn btn-outline" onclick="openProgram('high')">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="journey-section">
+            <div class="journey-content">
+                <h3 class="journey-title">Seamless Educational Journey</h3>
+                <p class="journey-description">
+                    From curious toddlers to confident young adults, we guide every step of your child's educational journey 
+                    with personalized attention and proven methodologies.
+                </p>
+                <div class="journey-stats">
+                    <div class="journey-stat">
+                        <span class="stat-number">1:12</span>
+                        <span class="stat-label">Student-Teacher Ratio</span>
+                    </div>
+                    <div class="journey-stat">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Graduation Rate</span>
+                    </div>
+                </div>
+            </div>
+            <div class="admission-process">
+                <h4 class="admission-title">Admission Process</h4>
+                <div class="admission-steps">
+                    <div class="admission-step">
+                        <span class="step-number">1</span>
+                        <span class="step-text">Submit Application</span>
+                    </div>
+                    <div class="admission-step">
+                        <span class="step-number">2</span>
+                        <span class="step-text">Campus Visit</span>
+                    </div>
+                    <div class="admission-step">
+                        <span class="step-number">3</span>
+                        <span class="step-text">Assessment</span>
+                    </div>
+                    <div class="admission-step">
+                        <span class="step-number">4</span>
+                        <span class="step-text">Enrollment</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary" onclick="window.open('https://forms.gle/m86BaL7UTnVQa9Tz7', '_blank')">Start Application</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">World-Class Facilities</h2>
+      <p class="section-description">
+        State-of-the-art infrastructure designed to enhance learning and provide the best educational environment.
+      </p>
+    </div>
+
+    <div class="facilities-grid">
+      <!-- Smart Classrooms -->
+      <div id="smart-classroom" class="facility-card facility-smart">
+        <div class="facility-overlay">
+          <div class="facility-content">
+            <div class="facility-icon"><i data-lucide="monitor"></i></div>
+            <h3 class="facility-title">Smart Classrooms</h3>
+            <p class="facility-description">Interactive digital boards and modern teaching tools for enhanced learning.</p>
+          </div>
+          <a href="./facilities/smart-classroom.html" class="facility-arrow">
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Library -->
+      <div id="library" class="facility-card facility-library">
+        <div class="facility-overlay">
+          <div class="facility-content">
+            <div class="facility-icon"><i data-lucide="book-open"></i></div>
+            <h3 class="facility-title">Library & Reading</h3>
+            <p class="facility-description">Extensive collection of books, journals, and digital resources.</p>
+          </div>
+          <a href="./facilities/library&readings.html" class="facility-arrow">
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Science Lab -->
+      <div id="science-lab" class="facility-card facility-lab">
+        <div class="facility-overlay">
+          <div class="facility-content">
+            <div class="facility-icon"><i data-lucide="flask-conical"></i></div>
+            <h3 class="facility-title">Science Laboratory</h3>
+            <p class="facility-description">Well-equipped labs for physics, chemistry, and biology experiments.</p>
+          </div>
+          <a href="./facilities/science-laboratory.html" class="facility-arrow">
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Computer Lab -->
+      <div id="computer-lab" class="facility-card facility-computer">
+        <div class="facility-overlay">
+          <div class="facility-content">
+            <div class="facility-icon"><i data-lucide="laptop"></i></div>
+            <h3 class="facility-title">Computer Lab</h3>
+            <p class="facility-description">Modern computers with latest software for technology education.</p>
+          </div>
+          <a href="./facilities/computer-lab.html" class="facility-arrow">
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Art Studio -->
+      <div id="art-studio" class="facility-card facility-art">
+        <div class="facility-overlay">
+          <div class="facility-content">
+            <div class="facility-icon"><i data-lucide="palette"></i></div>
+            <h3 class="facility-title">Art Studio</h3>
+            <p class="facility-description">Creative space for artistic expression and projects.</p>
+          </div>
+          <a href="./facilities/art-studio.html" class="facility-arrow">
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Music Room -->
+      <div id="music-room" class="facility-card facility-music">
+        <div class="facility-overlay">
+          <div class="facility-content">
+            <div class="facility-icon"><i data-lucide="music"></i></div>
+            <h3 class="facility-title">Music Room</h3>
+            <p class="facility-description">Dedicated space for musical education with instruments.</p>
+          </div>
+          <a href="./facilities/music-room.html" class="facility-arrow">
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sports Complex -->
+      <div id="sports-complex" class="facility-card facility-sports">
+        <div class="facility-overlay">
+          <div class="facility-content">
+            <div class="facility-icon"><i data-lucide="activity"></i></div>
+            <h3 class="facility-title">Sports Complex</h3>
+            <p class="facility-description">Indoor & outdoor facilities for physical education.</p>
+          </div>
+          <a href="./facilities/sports-complex.html" class="facility-arrow">
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Cafeteria -->
+      <div id="cafeteria" class="facility-card facility-cafeteria">
+        <div class="facility-overlay">
+          <div class="facility-content">
+            <div class="facility-icon"><i data-lucide="utensils"></i></div>
+            <h3 class="facility-title">Cafeteria</h3>
+            <p class="facility-description">Nutritious meals and snacks in hygienic conditions.</p>
+          </div>
+          <a href="./facilities/cafeteria.html" class="facility-arrow">
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Security -->
+      <div id="security" class="facility-card facility-security">
+        <div class="facility-overlay">
+          <div class="facility-content">
+            <div class="facility-icon"><i data-lucide="shield"></i></div>
+            <h3 class="facility-title">Security</h3>
+            <p class="facility-description">24/7 security with CCTV monitoring & access control.</p>
+          </div>
+          <a href="./facilities/security.html" class="facility-arrow">
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+            <div class="facility-stats">
+                <div class="facility-stat">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Classrooms</div>
+                </div>
+                <div class="facility-stat">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Science Labs</div>
+                </div>
+                <div class="facility-stat">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-label">Library Books</div>
+                </div>
+                <div class="facility-stat">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Sports Fields</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="map-section">
+                <div class="map-embed">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.5411298479276!2d78.803149!3d18.267913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcc2eec4f6eddb9%3A0x7a3f13dca6c33e24!2sYellareddy%2C%20Telangana!5e0!3m2!1sen!2sin!4v1695593223456!5m2!1sen!2sin"
+                        width="100%"
+                        height="400"
+                        style="border:0; border-radius: 12px;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="map-content">
+                    <i data-lucide="map-pin" class="map-icon"></i>
+                    <h3>Visit Our Campus</h3>
+                    <p>Located in the heart of the educational district</p><br>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=Yellareddy,Kamareddy,Telangana" target="_blank" class="btn btn-primary">Get Directions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Main Footer Content -->
+            <div class="footer-content">
+                <!-- Logo + description -->
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i data-lucide="graduation-cap"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h3>Imperial Heights Modern School</h3>
+                            <p>Excellence in Education</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">Nurturing tomorrow's leaders through excellence in education, character development, and innovative learning experiences.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/imperialheightsmodernschool/" target="_blank" rel="noopener" class="social-link"><i data-lucide="instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Other footer sections -->
+                <div class="footer-sections">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#programs">Academic Programs</a></li>
+                            <li><a href="#facilities">Facilities</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#">Admissions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Programs</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Early Childhood</a></li>
+                            <li><a href="#">Primary Education</a></li>
+                            <li><a href="#">Middle School</a></li>
+                            <li><a href="#">High School</a></li>
+                            <li><a href="#">Extracurricular</a></li>
+                            <li><a href="#">Summer Programs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Contact Info</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <a href="https://www.google.com/maps?q=Yellareddy,Kamareddy-503108" target="_blank" rel="noopener" class="contact-link">
+                                    <i data-lucide="map-pin"></i>
+                                    <span>Yellareddy<br>Kamareddy-503108</span>
+                                </a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="tel:+916302349535" class="contact-link">
+                                    <i data-lucide="phone"></i>
+                                    <span>+91 6302349535</span>
+                                </a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="mailto:imperialheights.contact@gmail.com" class="contact-link">
+                                    <i data-lucide="mail"></i>
+                                    <span>imperialheights.contact@gmail.com</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Imperial Heights Modern School. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="./footer/privay.html">Privacy Policy</a>
+                        <a href="./footer/terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
